@@ -15,7 +15,6 @@ const Card = ({ typeCard, items }: CardProps) => {
   const alertHandle = async () => {
     if (window.confirm(`Are you sure want to delete this ${name}`)) {
       const deleteResult = await apiCall(items?.id);
-      console.log(deleteResult)
     }
     window.location.reload();
     return;
