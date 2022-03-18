@@ -28,3 +28,27 @@
     border-style: solid;
     display: flex;
 }
+
+.loginButton{
+    background-color: var(--black);
+    border-radius: 5px;
+    border-width: 1;
+    border-style: solid;
+    display: flex;
+}
+@media (max-width:600px){
+   
+    .signupButton{
+        padding: 16px;
+    
+    }
+}
+/* Mobile */
+@media (max-width:480px){
+    .loginButton{
+        padding: 14px;
+    }
+    .signupButton{
+        align-self: center;
+    }
+}

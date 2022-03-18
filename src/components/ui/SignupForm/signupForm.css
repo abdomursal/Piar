@@ -28,6 +28,7 @@
     flex-direction: column;
     width: 20rem;
     gap: .5rem;
+
 }
 .input{
     padding: 10px;
@@ -39,3 +40,17 @@
     color: red;
     font-size: 12px;
 }
+
+@media (max-width: 500px) {
+   .form{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+   }
+   .button-wrap{
+       display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+  }
