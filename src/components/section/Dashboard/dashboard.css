@@ -27,6 +27,32 @@
     margin: 1rem 1rem;
 
 }
+.userSectionButton{
+    border-bottom-color: var(--wellBlue);
+    border-bottom-width:5px;
+    border-bottom-style:solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 3rem;
+    display: grid; 
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.stationSectionButton{
+    border-bottom-color: var(--orange);
+    border-bottom-width:5px;
+    border-bottom-style:solid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 3rem;
+    display: grid; 
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 5px;
+}
 .navButton {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding: 3rem;
