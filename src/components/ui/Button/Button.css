@@ -1,0 +1,30 @@
+.container-button{
+    background-color: var(--black);
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 3rem;
+    border-radius: 3px;
+}
+.container-button:hover{
+    background-color: var(--buttonHover);
+    cursor: pointer;
+}
+.lable-button{
+    color: var(--white);
+    font-size: 12px;
+    font-weight: bold;
+}
+.addButton{
+    border-radius: 2rem;
+    background-color: var(--purple);
+    padding: 1rem 1.2rem;
+}
+.signupButton{
+    background-color: transparent;
+    border-radius: 10px;
+    border-color: var(--white);
+    border-width: 1;
+    border-style: solid;
+    display: flex;
+}
