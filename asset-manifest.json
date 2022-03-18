@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab13f539.css",
-    "main.js": "/static/js/main.23bded3b.js",
-    "index.html": "/index.html",
-    "main.ab13f539.css.map": "/static/css/main.ab13f539.css.map",
-    "main.23bded3b.js.map": "/static/js/main.23bded3b.js.map"
+    "main.css": "/http//abdomursal.github.io/piar/static/css/main.ab13f539.css",
+    "main.js": "/http//abdomursal.github.io/piar/static/js/main.23bded3b.js",
+    "index.html": "/http//abdomursal.github.io/piar/index.html",
+    "main.ab13f539.css.map": "/http//abdomursal.github.io/piar/static/css/main.ab13f539.css.map",
+    "main.23bded3b.js.map": "/http//abdomursal.github.io/piar/static/js/main.23bded3b.js.map"
   },
   "entrypoints": [
     "static/css/main.ab13f539.css",
