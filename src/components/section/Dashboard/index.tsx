@@ -60,7 +60,7 @@ const Dashboard = () => {
       <nav className="nav">
         <div
           className={
-            activeNavBottom === "users" ? "activeNavBottom" : "navButton"
+            activeNavBottom == "users" ? "activeNavBottom" : "navButton"
           }
           onClick={() => setActiveNavBottom("users")}
         >
@@ -68,7 +68,7 @@ const Dashboard = () => {
         </div>
         <div
           className={
-            activeNavBottom === "stations" ? "activeNavBottom" : "navButton"
+            activeNavBottom == "stations" ? "activeNavBottom" : "navButton"
           }
           onClick={() => setActiveNavBottom("stations")}
         >
