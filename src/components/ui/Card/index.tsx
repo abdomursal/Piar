@@ -1,3 +1,4 @@
+import console from "console";
 import { removeStation } from "../../../lib/stations";
 import { removeUser } from "../../../lib/users";
 import { useAppDispatch } from "../../../store/hooks";
@@ -14,6 +15,7 @@ const Card = ({ typeCard, items }: CardProps) => {
   const alertHandle = async () => {
     if (window.confirm(`Are you sure want to delete this ${name}`)) {
       const deleteResult = await apiCall(items?.id);
+      console.log(deleteResult)
     }
     window.location.reload();
     return;

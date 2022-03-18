@@ -15,6 +15,7 @@ const Modal = ({ show }: ModalProps) => {
       <section className="modal-main">
         <img
           src="./exit.png"
+          alt='exitIcon'
           width={20}
           height={20}
           className={"exitIcon"}

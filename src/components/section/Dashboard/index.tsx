@@ -7,7 +7,6 @@ import { getStations } from "../../../store/stationReducer";
 import { getUsers } from "../../../store/userReducer";
 import { getUsers as getAllUsers } from "../../../lib/users";
 import { getStations as getAllStations } from "../../../lib/stations";
-
 import Button from "../../ui/Button";
 import Card from "../../ui/Card";
 import Modal from "../../ui/Modal";
@@ -23,18 +22,18 @@ const Dashboard = () => {
   const showModal = modalItems.isOpen;
   const dispatch = useAppDispatch();
 
-  const display = activeNavBottom == "users" ? users : stations;
+  const display = activeNavBottom === "users" ? users : stations;
 
   useEffect(() => {
     getData();
-  }, [activeNavBottom]);
+  }, [activeNavBottom, error]);
 
   const getData = async () => {
     try {
-      if (activeNavBottom == "users") {
+      if (activeNavBottom === "users") {
         const usersResult = await getAllUsers();
         return dispatch(getUsers(usersResult));
-      } else if (activeNavBottom == "stations") {
+      } else if (activeNavBottom === "stations") {
         const stationsResult = await getAllStations();
         return dispatch(getStations(stationsResult));
       }

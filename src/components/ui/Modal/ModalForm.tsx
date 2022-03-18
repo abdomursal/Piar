@@ -29,6 +29,8 @@ const EditForm = ({ isUser, isNew, data }: EditFormProps) => {
     };
 
     const apiCallResponse = await apiCall(prepareData);
+    console.log(apiCallResponse);
+    
     dispatch(closeModal());
     window.location.reload();
   };

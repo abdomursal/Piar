@@ -23,7 +23,7 @@ const Login = () => {
               className="signupButton"
               title={displayForm === LOGIN ? SIGNUP : LOGIN}
               onClick={() =>
-                setDisplayForm(displayForm == LOGIN ? SIGNUP : LOGIN)
+                setDisplayForm(displayForm === LOGIN ? SIGNUP : LOGIN)
               }
             />
           </div>
