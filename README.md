@@ -7,7 +7,7 @@
     - yarn start
 
 
-# the application intend to do the following:
+# the application intended to do the following:
 - user can register/signup to gain access token 
 - user can login with name and password 
 - user can display dashboard 
