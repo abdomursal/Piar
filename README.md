@@ -23,7 +23,7 @@
  -  React.js => ^17.0.2
  -  @reduxjs/toolkit => ^1.8.0 
  -  axios: ^0.26.1
- -  images download from flaticon
+ -  icons downloaded from flaticon.com
  
  
 
