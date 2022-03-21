@@ -7,7 +7,7 @@
     - yarn start
 
 
-# the application intend to do the following:
+# the application intended to do the following:
 - user can register/signup to gain access token 
 - user can login with name and password 
 - user can display dashboard 
@@ -23,7 +23,7 @@
  -  React.js => ^17.0.2
  -  @reduxjs/toolkit => ^1.8.0 
  -  axios: ^0.26.1
- -  images download from flaticon
+ -  icons downloaded from flaticon.com
  
  
 
