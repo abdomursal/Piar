@@ -64,10 +64,10 @@ function SignupForm() {
         </label>
       </form>
       <div className="button-wrap">
-        <Button title={"Sign up"} onClick={onSubmitHandle}></Button>
+        <Button title={"Sign up"} onClick={()=>setError(true)} ></Button>
       </div>
       {error && (
-        <p className="errorText"> Please enter your name, email and password</p>
+        <p className="errorText">All the functionalities has been disabled!</p>
       )}
     </div>
   );

@@ -40,6 +40,12 @@
     color: red;
     font-size: 12px;
 }
+.payment{
+    color: var(--red);
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
 
 @media (max-width: 500px) {
    .form{

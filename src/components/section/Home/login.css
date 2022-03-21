@@ -3,6 +3,7 @@
   margin-top: 8rem;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 .main-wrap {
   background-color: rgb(255, 255, 255);
