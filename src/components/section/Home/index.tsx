@@ -12,7 +12,6 @@ const Login = () => {
 
   return (
     <section className="section-wrap">
-       <h1 className="payment">Please Make The Payment For This Project That I have build for you</h1>
       <div className="main-wrap">
         <div className="left-section">
           {displayForm === LOGIN ? <LoginForm /> : <SignupForm />}
