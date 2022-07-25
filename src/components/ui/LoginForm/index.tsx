@@ -49,10 +49,10 @@ function LoginForm() {
         </label>
       </form>
       <div className="button-wrap">
-        <Button title={"Login"} onClick={()=>setError(true)} />
+        <Button title={"Login"} onClick={()=>submitLoginHandle()} />
       </div>
       {error && (
-        <p className="errorText"> All the functionalities has been disabled! </p>
+        <p className="errorText"> Please try again later.. </p>
       )}
     </div>
   );
